@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-l4+5os6a5b5db0f6@uef_!lwl-rz_r4*$hrt7$a3j^mbwp4x_^
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['https://bongo-todolistapp-backend.onrender.com']
+ALLOWED_HOSTS = ['bongo-todolistapp-backend.onrender.com']
 
 
 # Application definition
