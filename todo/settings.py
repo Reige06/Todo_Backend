@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-l4+5os6a5b5db0f6@uef_!lwl-rz_r4*$hrt7$a3j^mbwp4x_^
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['https://bongo-todolistapp-backend.onrender.com']
 
 
 # Application definition
@@ -126,8 +126,8 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
-CORS_ALLOW_ALL_ORIGINS = True
+# CORS_ALLOW_ALL_ORIGINS = True
 
-# CORS_ALLOWED_ORIGINS = [
-#     "http://localhost:5173",  
-# ]
+CORS_ALLOWED_ORIGINS = [
+    "https://reige06.github.io/Bongo_Todo_app",  
+]
