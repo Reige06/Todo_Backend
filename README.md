@@ -1,4 +1,7 @@
 Bongo Todo App
+
+
+
 A simple Todo List application with a Django REST API backend and a React (Vite) frontend.
 
 🛠️ Tech Stack
