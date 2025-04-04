@@ -36,6 +36,8 @@ DELETE       https://bongo-todolistapp-backend.onrender.com/api/todos/<id>
 
 
 🌍 Deployment
+
+
 Django (Backend)
 Deploy Django API on Render
 
