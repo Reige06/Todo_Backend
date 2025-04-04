@@ -22,13 +22,13 @@ Base URL: https://bongo-todolistapp-backend.onrender.com
 
 ✅ Tasks
 
-Method       Link                                                                  Description
+Method       Link                                                                 
 
-GET          https://bongo-todolistapp-backend.onrender.com/api/todos              Get all tasks
-POST         https://bongo-todolistapp-backend.onrender.com/api/todos              Create a new task
-GET          https://bongo-todolistapp-backend.onrender.com/api/todos/<id>         Get a specific task by ID
-PATCH        https://bongo-todolistapp-backend.onrender.com/api/todos/<id>         Update a task (edit description or status)
-DELETE       https://bongo-todolistapp-backend.onrender.com/api/todos/<id>         Delete a task
+GET          https://bongo-todolistapp-backend.onrender.com/api/todos              
+POST         https://bongo-todolistapp-backend.onrender.com/api/todos             
+GET          https://bongo-todolistapp-backend.onrender.com/api/todos/<id>         
+PATCH        https://bongo-todolistapp-backend.onrender.com/api/todos/<id>        
+DELETE       https://bongo-todolistapp-backend.onrender.com/api/todos/<id>         
 
 
 
