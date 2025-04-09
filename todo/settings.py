@@ -40,7 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'TodoListApp',
     'rest_framework',
-    'whiteniose,runserver_nostatic'
+    'whiteniose.runserver_nostatic'
 
     
 ]
