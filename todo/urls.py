@@ -29,5 +29,4 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/', include('TodoListApp.urls')),
     path('api-token-auth/', obtain_auth_token)
-    
 ]
