@@ -17,6 +17,8 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include  
 from django.http import JsonResponse
+from rest_framework.authtoken.views import obtain_auth_token
+
 
 def home(request):
     return JsonResponse({"message": "Welcome to the Todo API. Use /api/todos/ to interact with the API."})
@@ -25,5 +27,7 @@ def home(request):
 urlpatterns = [
     path('', home),
     path('admin/', admin.site.urls),
-    path('api/', include('TodoListApp.urls')), 
+    path('api/', include('TodoListApp.urls')),
+    path('api-token-auth/', obtain_auth_token)
+    
 ]

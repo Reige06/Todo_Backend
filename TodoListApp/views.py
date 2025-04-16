@@ -1,10 +1,20 @@
 from django.shortcuts import render
+from rest_framework.views import APIView
+from rest_framework.permissions import IsAuthenticated
 from rest_framework.response import Response
 from rest_framework.decorators import api_view
 from .models import Todo
 from .serializers import TodoSerializer
 
 # Create your views here.
+
+
+class SecureHelloView(APIView):
+    permission_classes = [IsAuthenticated]
+
+    def get(self, request):
+        return Response({"message": f"Hello, {request.user.username}!"})
+
 
 @api_view(['GET', 'POST'])
 def task_list(request):
